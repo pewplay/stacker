@@ -1,0 +1,8 @@
+{
+  "title": "Stacker",
+  "description": "Stack the blocks as high as you can without letting them fall.",
+  "keywords": ["stack", "arcade", "blocks", "timing", "casual"],
+  "category": "Arcade",
+  "author": "PewPlay",
+  "playMode": "SinglePlayer"
+}
