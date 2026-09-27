@@ -1,8 +1,53 @@
 {
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Stacker",
-  "description": "Stack the blocks as high as you can without letting them fall.",
-  "keywords": ["stack", "arcade", "blocks", "timing", "casual"],
+  "description": "Stop the sliding blocks at the right moment and stack them to the top of the tower. A classic arcade timing game, free in your browser.",
+  "about": "Stacker brings the classic arcade prize machine to your browser. A row of glowing blocks slides from side to side, and you press the button to drop it on top of the row below. Stack all ten rows to reach the top and win.\n\nTiming is everything: any block that does not land on the stack falls away, so your row gets narrower every time you are off. Three blocks become two, two become one, and if you miss completely the game is over. The rows speed up as the tower grows, and the highlighted lines on the board mark how far you have climbed.\n\nThe whole game is built with pure CSS, with no scripts at all, and a round takes less than a minute, so it is perfect for a quick challenge.",
+  "howToPlay": "Press the red button to stop the moving row of blocks. Only the blocks that land on top of the row below stay; the rest fall off and your row gets shorter. Reach the top row to win; if no block lands on the stack, the game is over.",
+  "controls": [
+    {
+      "input": "Click / Tap the red button",
+      "action": "Drop the moving row"
+    },
+    {
+      "input": "Again",
+      "action": "Start a new game"
+    }
+  ],
+  "tips": [
+    "Watch the row move a couple of times before pressing, so you learn its rhythm.",
+    "Press slightly early: the row keeps moving for a split second when you tap.",
+    "Keeping three blocks for as long as possible gives you room for mistakes higher up.",
+    "Near the top the rows are faster, so focus on the column right under the moving block."
+  ],
+  "faq": [
+    {
+      "question": "Is Stacker free to play?",
+      "answer": "Yes. Stacker is completely free and runs in your browser, with no download or sign-up."
+    },
+    {
+      "question": "Can I play on a phone or tablet?",
+      "answer": "Yes. Just tap the red button; the board fits phone, tablet and computer screens."
+    },
+    {
+      "question": "How do I win?",
+      "answer": "Stack the blocks all the way to the top row. Every missed block makes your row narrower, and the game ends when no block lands on the stack."
+    }
+  ],
   "category": "Arcade",
+  "tags": [
+    "stacker",
+    "timing",
+    "blocks",
+    "arcade",
+    "tower"
+  ],
   "author": "PewPlay",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": [
+    "screenshots/1.png",
+    "screenshots/2.png"
+  ]
 }
