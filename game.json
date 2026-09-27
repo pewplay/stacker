@@ -1,8 +1,15 @@
 {
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Stacker",
   "description": "Stack the blocks as high as you can without letting them fall.",
-  "keywords": ["stack", "arcade", "blocks", "timing", "casual"],
   "category": "Arcade",
+  "tags": [
+    "stack",
+    "arcade",
+    "blocks",
+    "timing",
+    "casual"
+  ],
   "author": "PewPlay",
   "playMode": "SinglePlayer"
 }
