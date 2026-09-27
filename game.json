@@ -2,6 +2,32 @@
   "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
   "title": "Stacker",
   "description": "Stack the blocks as high as you can without letting them fall.",
+  "about": "Stacker is a browser game where you stop the moving stack at the right moment and line it up with the layer below. Keep stacking until you win or miss.\n\nStart a round in your browser and use the controls below to play.",
+  "howToPlay": "Stop the moving stack at the right moment and line it up with the layer below. Keep stacking until you win or miss.",
+  "controls": [
+    {
+      "input": "Click / tap",
+      "action": "Place the moving layer"
+    },
+    {
+      "input": "Again",
+      "action": "Restart"
+    }
+  ],
+  "tips": [
+    "Use click / tap to place the moving layer.",
+    "Try another round to practice the timing and strategy."
+  ],
+  "faq": [
+    {
+      "question": "How do I play Stacker?",
+      "answer": "Stop the moving stack at the right moment and line it up with the layer below. Keep stacking until you win or miss."
+    },
+    {
+      "question": "Can I play Stacker in a browser?",
+      "answer": "Yes. Open the game page and play without installing an app."
+    }
+  ],
   "category": "Arcade",
   "tags": [
     "stack",
@@ -10,6 +36,9 @@
     "timing",
     "casual"
   ],
-  "author": "PewPlay",
-  "playMode": "SinglePlayer"
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "draft": true,
+  "author": "PewPlay"
 }
